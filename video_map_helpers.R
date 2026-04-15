@@ -118,8 +118,8 @@ VIDEO_MAP_TABLE_COLUMNS <- c(
 )
 
 video_map_school_code <- function() {
-  code <- toupper(trimws(Sys.getenv("TEAM_CODE", "OSU")))
-  if (!nzchar(code)) code <- "OSU"
+  code <- toupper(trimws(Sys.getenv("TEAM_CODE", "LSU")))
+  if (!nzchar(code)) code <- "LSU"
   code
 }
 
